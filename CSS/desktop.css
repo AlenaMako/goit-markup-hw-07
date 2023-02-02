@@ -1,0 +1,151 @@
+@media screen and (min-width: 1200px){
+    .container{
+        width: 1158px;
+    }
+
+    .hero {
+        padding-top: 188px;
+        padding-bottom: 188px;
+        width: 1200px;
+      }
+
+
+    .overlay{
+        height: 600px;
+        background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../image/hero.jpg");
+      }
+
+      @media (min-device-pixel-ratio: 2),
+             (min-resolution: 192dpi),
+             (min-resolution: 2dppx) {
+             .overlay{
+             background-image: linear-gradient(
+             to right,
+             rgba(46, 47, 66, 0.7),
+             rgba(46, 47, 66, 0.7)
+              ),
+            url("../image/hero-desk2x.jpg");
+
+              }
+             }
+
+    .hero-title {
+        margin-bottom: 48px;
+      
+        font-size: 56px;
+        line-height: 1.07;
+      }
+
+    .mission {
+        padding-top: 120px;
+        padding-bottom: 120px;
+       }
+
+    .mission .container{
+      width: 1158px;
+    }
+
+    .mission-list {
+        display: flex;
+        gap: var(--item-card-gap);
+        
+       }
+
+      .mission-item {
+        width: calc((100% - 72px) / 4);
+      
+      }
+
+      .mission-item-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+       
+       }
+       
+       .mission-item-text {
+        font-weight: 400;  
+        font-size: 16px;
+        line-height: 1.5;
+
+       
+       }
+
+      .icon-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px 0;
+        margin-bottom: 8px;
+        border-radius: 4px;
+        background-color: #F4F4FD;
+       
+      }
+
+    .services {
+        display: block;
+        padding-bottom: 120px;
+        text-align: center;
+        }
+        
+    .services-title {
+         margin-bottom: 72px;
+         font-weight: 500;
+         font-size: 36px;
+         line-height: 1.11;
+         text-align: center;
+         letter-spacing: 0.02em;
+         text-transform: capitalize;
+         color: var(--title-color);
+        
+        }
+        
+    .services-list {
+          display: flex;
+          gap: var(--item-card-gap);
+        }
+        
+    .services-item {
+          width: calc((100% - 48px) / 3);
+        }
+
+
+    .team .container{
+        width: 1158px;
+    }
+
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .team-item{
+        width: calc((100% - 72px) / 4);
+    }
+
+    .customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+      }
+
+    .customers .container{
+        width: 1158px;
+    }
+
+      .customers-list {
+        display: flex;
+        gap: 24px;
+      }
+
+      .customers-item {
+        width: calc((100% - 120px) / 6);
+    }
+
+
+}
+

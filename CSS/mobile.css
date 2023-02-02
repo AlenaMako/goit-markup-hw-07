@@ -1,0 +1,29 @@
+@media screen and (min-width: 480px){
+    .container{
+        width: 428px;
+    }
+
+    .hero {
+        width: 480px;
+      }
+
+
+    .overlay{
+        height: 432px;
+        
+    }
+
+    .hero-title {
+        font-size: 36px;
+    }
+
+    .mission> .container{
+        width: 480px;
+      }
+
+
+      .footer-input{
+        width: 396px;
+       
+      }
+}
