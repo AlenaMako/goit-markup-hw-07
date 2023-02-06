@@ -1,15 +1,33 @@
 @media screen and (min-width: 480px){
     .container{
         width: 428px;
+       
     }
 
+  
+
+    .header .container{
+      width: 428px;
+     }
+
+    .mob-menu .container{
+      width: 428px;
+    }
+
+    .mob-tel-link {
+      font-size: 36px;
+    
+     }
+     
+
+
     .hero {
-        width: 480px;
+        width: 428px;
       }
 
 
     .overlay{
-        height: 432px;
+        height: 428px;
         
     }
 
@@ -18,12 +36,18 @@
     }
 
     .mission> .container{
-        width: 480px;
+        width: 428px;
       }
 
-
+     
       .footer-input{
         width: 396px;
        
       }
+
+      .modal{
+        width: 392px;
+        min-height: 576px;
+      }
+  
 }

@@ -61,13 +61,90 @@
           </li>
         </ul>
 
-        <button type="button" class="menu-open">
+        <button type="button" class="menu-open" data-menu-open>
           <svg class="menu-open-icon" width="32" height="22">
             <use href="./image/svg/icons-2.svg#icon-burger"></use>
           </svg>
-        </button>
-        
+        </button> 
       </div>
+
+        <div class="mob-menu is-hidden" data-menu>
+          <div class="container mob-menu-container">
+            <div class="mob-menu-top">
+              <button type="button" class="menu-close" data-menu-close>
+                <svg class="menu-close-icon" width="8" height="8">
+                  <use href="./image/svg/icons-2.svg#icon-close-menu"></use>
+                </svg>
+              </button>
+      
+            <nav>
+                <ul class="mob-menu-list list">
+                  <li class="mob-menu-item">
+                    <a href="./index.html" class="mob-menu-link link current">Studio</a>
+                  </li>
+        
+                  <li class="mob-menu-item">
+                    <a href="./portfolio.html" class="mob-menu-link link">Portfolio</a>
+                  </li>
+        
+                  <li class="mob-menu-item">
+                    <a href="" class="mob-menu-link link">Contacts</a>
+                  </li>
+                </ul>
+            </nav>
+            </div>
+          
+    
+          <div class="mob-menu-bottom">
+            <ul class="mob-auth-list list">
+              <li class="mob-auth-mail">
+                <a href="tel:+110001111111" class="mob-tel-link link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+      
+              <li class="mob-auth-tel">
+                <a href="mailto:info@devstudio.com" class="mob-meil-link link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+      
+            <ul class="mob-soc-list list">
+              <li class="mob-soc-item">
+                <a href="" class="mob-soc-link link">
+                  <svg class="mob-soc-icon" width="16" height="16">
+                    <use
+                      href="./image/svg/icons-2.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-soc-item">
+                <a href="" class="mob-soc-link link">
+                  <svg class="mob-soc-icon" width="16" height="16">
+                    <use href="./image/svg/icons-2.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-soc-item">
+                <a href="" class="mob-soc-link link">
+                  <svg class="mob-soc-icon" width="16" height="16">
+                    <use href="./image/svg/icons-2.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-soc-item">
+                <a href="" class="mob-soc-link link">
+                  <svg class="mob-soc-icon" width="16" height="16">
+                    <use href="./image/svg/icons-2.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
 
     </header>
 
@@ -426,7 +503,7 @@
     </main>
 
     <!--Footer--> 
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container">
           <div class="footer-wrap">
             <div class="footer-logo">
@@ -492,10 +569,10 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
     <!--modal page-->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
@@ -583,8 +660,10 @@
           <button type="submit" class="modal-submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
 
-    <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
+
   </body>
 </html>
