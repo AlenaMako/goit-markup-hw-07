@@ -155,8 +155,10 @@
 
       .team{
         padding-bottom: 104px;
-        /* width: 768px; */
+        width: 768px;
+        margin: 0 auto;
        }
+
 
      .team-list {
         display: flex;
@@ -177,41 +179,39 @@
         width: calc((100% - 32px) / 3);
     }
 
+    .footer {
+        
+      width: 768px;
+      margin: 0 auto;
+    
+    }
 
-     .footer .container{
+    .footer .container {
       width: 582px;
-  }
-  
-  .footer-form{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-   }
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: unset;
+      justify-content: start;
+      gap: 72px 24px;
+    }
 
-   .footer-input{
-    width: 264px;
-   
-  }
+    .footer-form{
+      display: flex;
+    }
 
-  .button-subscribe{
-    display: flex;
-    padding: 8px 24px;
-    min-width: 165px;
-    height: 40px;
-    border-radius: 4px;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: none;
+    .footer-form-field{
+      margin-right: 24px;
+    }
 
-  }
+    .footer-input{
+      width: 264px;
+    }
+    
 
-
-  .modal{
-    width: 408px;
-    min-height: 576px;
-  }
+    .modal{
+      width: 408px;
+      min-height: 576px;
+    }
   
 
 

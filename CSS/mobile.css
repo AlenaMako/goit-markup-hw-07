@@ -39,11 +39,24 @@
         width: 428px;
       }
 
-     
+      .team{
+        width: 480px;
+        margin: 0 auto;
+      }
+
+      .footer {
+        
+        width: 480px;
+        margin: 0 auto;
+      
+      }
+
       .footer-input{
-        width: 396px;
+         width: 396px;
        
       }
+
+
 
       .modal{
         width: 392px;
