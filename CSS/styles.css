@@ -293,7 +293,7 @@ body{
 .mob-soc-list {
   /* width: 100%; */
   display: flex;
-  gap: 30px;
+  gap: 40px;
   justify-content: start;
 }
 
