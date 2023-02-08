@@ -163,7 +163,7 @@
      .team-list {
         display: flex;
         flex-wrap: wrap;
-        gap: var(--item-card-gap); 
+        gap: 64px 24px; 
        }
 
       .team-item{
