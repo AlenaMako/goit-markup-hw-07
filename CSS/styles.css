@@ -161,6 +161,7 @@ body{
 
 .mob-menu .container{
   width: 100%;
+  border-bottom: unset;
 }
 
 .mob-menu {
