@@ -193,6 +193,7 @@ body{
   justify-content: center;
   margin-left: auto;
   margin-bottom: 16px;
+  padding: 0;
 
   width: 24px;
   height: 24px;
@@ -251,10 +252,11 @@ body{
 
 
 .mob-tel-link {
+
  display: inline-block;
  margin-bottom: 40px;
  font-weight: 600;
- font-size: 25px;
+ font-size: 30px;
  line-height: 1.11;
  text-transform: capitalize;
  color: #434455;
@@ -289,8 +291,9 @@ body{
 .mob-auth-tel {
 }
 .mob-soc-list {
+  /* width: 100%; */
   display: flex;
-  gap: 56px;
+  gap: 30px;
   justify-content: start;
 }
 
@@ -1014,7 +1017,7 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scaleX(1);
-  width: 290px;
+  width: 310px;
   min-height: 576px;
   padding: 24px;
 
@@ -1044,6 +1047,7 @@ body{
   cursor: pointer;
   background: #E7E9FC;
   margin-bottom: 24px;
+  padding: 0;
 
   transition: background-color var(--trans), border-color var(--trans);
 }
