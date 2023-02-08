@@ -67,6 +67,23 @@
       .modal{
         width: 392px;
         min-height: 576px;
+        padding: 24px;
+      }
+
+      .privacy-text{
+        display: unset;
+       
+        
+      }
+
+      .privacy-link{
+        margin-left: unset;
+      }
+      
+      .check-text{
+        display: flex;
+        flex-wrap: unset;
+       
       }
   
 }
