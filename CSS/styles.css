@@ -1022,7 +1022,7 @@ body{
   width: 100%;
   min-height: 400px;
   /* padding: 24px; */
-  padding: 24px 10px;
+  padding: 24px;
 
   background-color: #FCFCFC;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1163,11 +1163,11 @@ body{
 
 }
 
-/* .privacy-text{
+.privacy-text{
   display: block;
  
   
-} */
+}
 
 .check-text{
   display: flex;
@@ -1184,7 +1184,7 @@ body{
 }
 
 .privacy-link{
-  margin-left: 25px;
+  /* margin-left: 25px; */
 }
 
 
