@@ -1022,7 +1022,6 @@ body{
   transform: translate(-50%, -50%) scaleX(1);
   width: 100%;
   min-height: 400px;
-  /* padding: 24px; */
   padding: 24px;
 
   background-color: #FCFCFC;
@@ -1038,9 +1037,6 @@ body{
 }
 
 .modal-close{
-  /* position: absolute;
-  right: 24px;
-  top: 24px; */
   display: block;
   margin-left: auto;
 
@@ -1164,11 +1160,6 @@ body{
 
 }
 
-.privacy-text{
-  display: block;
- 
-  
-}
 
 .check-text{
   display: flex;
@@ -1184,9 +1175,6 @@ body{
  
 }
 
-.privacy-link{
-  /* margin-left: 25px; */
-}
 
 
 .check-text::before{
@@ -1262,8 +1250,7 @@ body{
   margin-bottom: 24px;
 }
 
- 
- 
+
 
 
 

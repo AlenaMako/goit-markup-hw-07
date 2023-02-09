@@ -27,10 +27,7 @@
      
 
 
-    /* .hero {
-        width: 428px;
-      } */
-
+  
 
     .overlay{
         height: 428px;
@@ -45,17 +42,7 @@
         width: 428px;
       }
 
-      /* .team{
-        width: 480px;
-        margin: 0 auto;
-      } */
-
-      /* .footer {
-        
-        width: 480px;
-        margin: 0 auto;
-      
-      } */
+ 
 
       .footer-input{
          width: 396px;
@@ -74,7 +61,7 @@
         display: unset;
        
         
-      }
+      } */
 
       .privacy-link{
         margin-left: unset;
